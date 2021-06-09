@@ -1,0 +1,151 @@
+@mixin size ($width, $height){
+    height: $height;
+    width: $width;
+}
+@mixin flex($display, $direction, $justifycontent, $aligncontent, $alignitems) {
+
+	display: $display;
+	flex-direction: $direction;
+	justify-content: $justifycontent;
+	align-items: $alignitems;
+
+}
+
+.contenedor__3{
+    
+    background-image: linear-gradient(violet,black);
+    width: 100vw;
+    height: 110vw;
+    
+}
+.foto__cattaneo{
+    width: 50vw;
+    height: 10vw;
+    
+}
+
+ .foto__cattaneo__01{
+     padding-top: 70px;
+     width: 35vw;
+     height: auto;
+     border-radius: 15px;
+     -webkit-border-radius: 15px;
+     -moz-border-radius: 15px;
+     -ms-border-radius: 15px;
+     -o-border-radius: 15px;
+     
+}
+.foto__cattaneo__01:hover{
+    filter: grayscale(80%);
+    transform: rotateY(180deg);
+    transform-style: preserve-3d;
+           
+}
+
+.foto__cattaneo__02{
+    width: 50vw;
+    height: 100vw;
+    
+   
+}
+
+ .sobre__mi{
+    width: 100vw;
+    position: relative;
+    display: flex;
+    align-self: flex-start;
+    justify-content:space-around;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    align-items: flex-end;
+    padding-bottom: 35px;
+    z-index: 1;
+    font-size: 1.1rem;
+    font-family: 'Josefin Sans', sans-serif;
+    color: rgb(255, 255, 255);
+    
+ }
+ .algo__sobreMi{
+    font-size: 1.5rem;
+    height: 0vw;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    padding-left: 55px;
+}
+ .button__cv__conoceme{
+    height: 6vw;
+    width: 60px;
+    font-size: 1.0rem;
+    border-style: solid;
+    border-color: white;
+    border-width: 2px;
+    font-family: 'Josefin Sans', sans-serif;
+    color: white;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    list-style: none;
+    background: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 25vw;
+    
+    
+}
+.sobre__mi__informacion {
+    width: 100vw;
+    position: relative;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    padding-left: 100px;
+    z-index: 1;
+    font-size: 0.8rem;
+    font-family: 'Josefin Sans', sans-serif;
+    color: rgb(255, 255, 255);   
+}
+
+.parrafo {
+    width:50vw;
+    text-align-last:justify;
+
+}
+.button__cv{
+    width: 100vw;
+    height: 35vw;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    
+}
+
+.button__cv__texto{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    border-style: solid;
+    border-color: white;
+    width: 120px;
+    height: 30px;
+    border-width: 2px;
+    font-family: 'Josefin Sans', sans-serif;
+    color: white;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    list-style: none;
+    background: black;
+}

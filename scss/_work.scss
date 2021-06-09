@@ -1,0 +1,144 @@
+@mixin size ($width, $height){
+    height: $height;
+    width: $width;
+}
+@mixin flex($display, $direction, $justifycontent, $aligncontent, $alignitems) {
+
+	display: $display;
+	flex-direction: $direction;
+	justify-content: $justifycontent;
+	align-items: $alignitems;
+
+}
+.work{
+    position: relative;
+
+}
+.img__work1{
+    width: 35vw;
+    height: auto;
+    
+}
+.work .img__work1{
+    transition: 1s all;
+    animation-duration: 1s;
+}
+
+.img__work1:hover{
+    transform: rotateZ(360deg);
+    -webkit-transform: rotatez(360deg);
+    -moz-transform: rotatez(360deg);
+    -ms-transform: rotatez(360deg);
+    -o-transform: rotatez(360deg);    
+}
+
+
+.work__1{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100vw;
+    height: 100vw;
+    background: grey;
+}
+
+.titulo__design__interior{
+    
+    font-family: 'Josefin Sans', sans-serif;
+    color: white;
+    font-size: 2.0rem;
+
+}
+.concepto1{
+   
+    width: 80vw;
+    font-family: 'Josefin Sans', sans-serif;
+    color: white;
+    text-align-last:center;
+    font-size: 1.0rem;
+    
+}
+.img__work2{
+    width: 35vw;
+    height: auto;
+}
+.work .img__work2{
+    transition: 1s all;
+    animation-duration: 1s;
+    -webkit-transition: 1s all;
+    -moz-transition: 1s all;
+    -ms-transition: 1s all;
+    -o-transition: 1s all;
+}
+
+.img__work2:hover{
+    transform: rotateZ(360deg);
+    -webkit-transform: rotatez(360deg);
+    -moz-transform: rotatez(360deg);
+    -ms-transform: rotatez(360deg);
+    -o-transform: rotatez(360deg);    
+}
+.img__work2:hover{
+    transform: rotateZ(180deg);
+    -webkit-transform: rotateZ(180deg);
+    -moz-transform: rotateZ(180deg);
+    -ms-transform: rotateZ(180deg);
+    -o-transform: rotateZ(180deg);
+    
+}
+
+
+.work__2{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100vw;
+    height: 100vw;
+    background: black;
+    
+}
+
+.titulo__design__web{
+   
+    font-family: 'Josefin Sans', sans-serif;
+    color: white;
+    font-size: 2.0rem;
+
+}
+    
+.concepto2{
+   
+    width: 80vw;
+    font-family: 'Josefin Sans', sans-serif;
+    color: white;
+    text-align-last:center;
+    font-size: 1.0rem;
+    
+}
+.work__design{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: center;
+    width: 100vw;
+    height: 70vw;
+    background-image: linear-gradient(to right, gray, black);
+}
+.img__work3{
+    width: 20vw;
+    
+}
+#work__section{
+    
+    background: gray;
+    width: 100vw;
+    height: 100vw;
+}

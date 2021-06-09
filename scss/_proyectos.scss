@@ -1,0 +1,195 @@
+@mixin size ($width, $height){
+    height: $height;
+    width: $width;
+}
+@mixin flex($display, $direction, $justifycontent, $aligncontent, $alignitems) {
+
+	display: $display;
+	flex-direction: $direction;
+	justify-content: $justifycontent;
+	align-items: $alignitems;
+
+}
+
+.contenedor__5{
+    
+    width: 100vw;
+    
+    
+}
+
+.titulo__proyectos__principal {
+   
+    background: rgba(153, 225, 216, 1.0);
+}
+
+.titulo__proyectos{
+    position: relative;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    align-items: flex-end;
+    width: 100vw;
+    height: 30vw;
+    color: white;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 1.8rem;
+    transform:translate(1px,5px);
+    padding-bottom: 10px;
+}
+.titulo__proyectos__principal .titulo__proyectos{
+    transition: 1s all;
+    animation-duration:1s;
+    -webkit-transition: 1s all;
+    -moz-transition: 1s all;
+    -ms-transition: 1s all;
+    -o-transition: 1s all;
+}
+.titulo__proyectos:hover{
+    color: rgb(246, 62, 154);
+    text-shadow: 0 0 10px #fff,
+               0 0 20px  #fff,
+               0 0 30px  #fff,
+               0 0 40px  #228DFF,
+               0 0 70px  #228DFF,
+               0 0 80px  #228DFF,
+               0 0 100px #228DFF,
+               0 0 150px #228DFF;
+    
+}
+.gradiente__foto1{
+    background-repeat: no-repeat;
+    background-size: 100vw;
+    background-image: 
+ url(../img/arq1.jpg);
+    width: 100vw;
+   height: 100vw;
+   display: flex;
+   align-content: center;
+   justify-content: center;
+   align-items: center;
+
+
+
+}
+.gradiente__foto1:hover{
+    border-radius:10%;
+    -webkit-border-radius:10%;
+    box-shadow: 0px 0px 15px 15px violet;
+    -webkit-box-shadow: 0px 0px 15px 15px violet;
+    -moz-border-radius:10%;
+    -ms-border-radius:10%;
+    -o-border-radius:10%;
+}
+
+
+.gradiente__foto2{
+    background-repeat: no-repeat;
+    background-size: 100vw;
+    background-image: 
+ url(../img/arq2.jpg);
+ width: 100vw;
+ height: 100vw;
+ display: flex;
+ align-content: center;
+ justify-content: center;
+ align-items: center;
+
+}
+.gradiente__foto2:hover{
+    border-radius:10%;
+    -webkit-border-radius:10%;
+    box-shadow: 0px 0px 15px 15px violet;
+    -webkit-box-shadow: 0px 0px 15px 15px violet;
+    -moz-border-radius:10%;
+    -ms-border-radius:10%;
+    -o-border-radius:10%;
+}
+
+.gradiente__foto3{
+    background-repeat: no-repeat;
+    background-size: 100vw;
+    background-image: 
+ url(../img/arq3.jpg);
+ width: 100vw;
+ height: 100vw;
+ display: flex;
+ align-content: center;
+ justify-content: center;
+ align-items: center;
+
+}
+.gradiente__foto3:hover{
+    border-radius:10%;
+    -webkit-border-radius:10%;
+    box-shadow: 0px 0px 15px 15px violet;
+    -webkit-box-shadow: 0px 0px 15px 15px violet;
+    -moz-border-radius:10%;
+    -ms-border-radius:10%;
+    -o-border-radius:10%;
+}
+.gradiente__foto4{
+    background-repeat: no-repeat;
+    background-size: 100vw;
+    background-image: 
+ url(../img/arq4.jpg);
+ width: 100vw;
+ height: 100vw;
+ display: flex;
+ align-content: center;
+ justify-content: center;
+ align-items: center;
+
+}
+.gradiente__foto4:hover{
+    border-radius:10%;
+    -webkit-border-radius:10%;
+    box-shadow: 0px 0px 15px 15px violet;
+    -webkit-box-shadow: 0px 0px 15px 15px violet;
+    -moz-border-radius:10%;
+    -ms-border-radius:10%;
+    -o-border-radius:10%;
+}
+.gradiente__foto5{
+    background-repeat: no-repeat;
+    background-size: 100vw;
+    background-image: 
+ url(../img/arq5.jpg);
+ width: 100vw;
+ height: 100vw;
+ display: flex;
+ align-content: center;
+ justify-content: center;
+ align-items: center;  
+
+}
+.gradiente__foto5:hover{
+    border-radius:10%;
+    -webkit-border-radius:10%;
+    box-shadow: 0px 0px 15px 15px violet;
+    -webkit-box-shadow: 0px 0px 15px 15px violet;
+    -moz-border-radius:10%;
+    -ms-border-radius:10%;
+    -o-border-radius:10%;
+}
+.gradiente__foto6{
+    background-repeat: no-repeat;
+    background-size: 100vw;
+    background-image: 
+ url(../img/arq6.jpg);
+ width: 100vw;
+ height: 100vw;
+ display: flex;
+ align-content: center;
+ justify-content: center;
+ align-items: center;
+}
+.gradiente__foto6:hover{
+    border-radius:10%;
+    -webkit-border-radius:10%;
+    box-shadow: 0px 0px 15px 15px violet;
+    -webkit-box-shadow: 0px 0px 15px 15px violet;
+    -moz-border-radius:10%;
+    -ms-border-radius:10%;
+    -o-border-radius:10%;
+}

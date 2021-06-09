@@ -1,0 +1,20 @@
+@mixin sizes($width, $height){
+    height: $height;
+    width: $width;
+}
+
+.contenedor1{
+
+    @include sizes(100vw, 0vw);
+    background: black;
+    position: fixed;
+    z-index: 1;
+}
+.logo__cattaneo{
+
+    @include sizes(35vw, 0vw);
+    margin-left: 15px;
+    margin-top: 15px;
+    z-index: 1;       
+   
+}

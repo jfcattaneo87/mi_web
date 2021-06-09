@@ -1,0 +1,182 @@
+@mixin size ($width, $height){
+    height: $height;
+    width: $width;
+}
+@mixin flex($display, $direction, $justifycontent, $aligncontent, $alignitems) {
+
+	display: $display;
+	flex-direction: $direction;
+	justify-content: $justifycontent;
+	align-items: $alignitems;
+
+}
+.contenedor__6{
+    background: black;
+    color: black;
+    font-family: 'Josefin Sans', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    text-align: center;
+    width: 100vw;
+   
+   
+}
+
+
+.titulo__contacto{
+    position: relative;
+    display: flex;
+    align-content: flex-end;
+    justify-content: center;
+    align-items: flex-end;
+    width: 100vw;
+    height: 30vw;
+    color: rgb(255, 255, 255);
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 2.3rem;
+    transform:translate(1px,5px);
+    -webkit-transform:translate(1px,5px);
+    -moz-transform:translate(1px,5px);
+    -ms-transform:translate(1px,5px);
+    -o-transform:translate(1px,5px);
+}
+.contenedor__6 .titulo__contacto{
+    transition: 1s all;
+    animation-duration:1s;
+    -webkit-transition: 1s all;
+    -moz-transition: 1s all;
+    -ms-transition: 1s all;
+    -o-transition: 1s all;
+}
+.titulo__contacto:hover{
+    color: rgb(246, 62, 154);
+    text-shadow: 0 0 10px #fff,
+               0 0 20px  #fff,
+               0 0 30px  #fff,
+               0 0 40px  #228DFF,
+               0 0 70px  #228DFF,
+               0 0 80px  #228DFF,
+               0 0 100px #228DFF,
+               0 0 150px #228DFF;
+    
+}
+
+
+.formulario{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    font-family: 'Josefin Sans', sans-serif;
+    background-image: linear-gradient(
+        rgba(25, 209, 231, 0.5),
+        rgba(243, 17, 224, 0.5));
+    width: 100vw; 
+    height: 150vw; 
+    color: rgb(255, 255, 255);  
+}
+.cuadro{
+    background-color: rgb(0, 0, 0);
+    width: 60vw;
+    height: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+#nombres{
+    width: 40vw;
+    height: 4vw;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+#apellidos{
+    width: 40vw;
+    height: 4vw;
+    border-radius: 10px;
+
+}
+.form-control{
+    width: 40vw;
+    height: 4vw;
+    border-radius: 10px;
+
+}
+#exampleFormControlTextarea1{
+    width: 40vw;
+    height: 10vw;
+    border-radius: 10px;
+
+}
+.enviar{
+    width: 15vw;
+    height: 5vw;
+    border-radius: 10px;
+    font-size: 15px;
+    font-family: 'Josefin Sans', sans-serif;
+    background: rgba(153, 225, 216, 1.0);
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+.footer__icons{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-content: stretch;
+    align-items: center;
+    width: 100vw;
+    height: 10vw;
+    background: rgba(153, 225, 216, 1.0);
+    transition: 1s all;
+    animation-duration: 1s;
+    
+}
+.icons{
+   
+    width: 8vw; 
+    
+    
+}
+.footer__icons .icons{
+    transition: 1s all;
+    animation-duration: 1s;
+
+}
+.icons:hover{
+    transform: rotateZ(360deg);
+    -webkit-transform: rotatez(360deg);
+    -moz-transform: rotatez(360deg);
+    -ms-transform: rotatez(360deg);
+    -o-transform: rotatez(360deg);
+}
+
+
+.correo{
+    width: 100vw;
+    height: 25vw;
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    font-family: 'Josefin Sans', sans-serif;
+    color: violet;
+    background: black;
+}
+.Copy{
+    background: black;
+    text-align: center;
+    color: white;
+}
