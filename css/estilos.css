@@ -1,0 +1,1451 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    
+}
+
+.body {
+    font-family: 'Josefin Sans', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+/* inicio logo*/
+.contenedor__1 {
+    
+    background: rgba(0, 0, 0, 0.3);
+    width: 100vw;
+    position: fixed;
+    z-index: 1;
+ 
+}
+
+
+.logo__cattaneo{
+    margin-left: 15px;
+    margin-top: 15px;
+    z-index: 1;
+    width: 35vw;
+    
+
+}
+/* fin logo*/
+/* inicio menu*/
+.lista__menu{
+    display: flex;
+    justify-content: space-around;
+}
+
+.nav__Bar__Content {
+    
+    color: rgba(255, 255, 255, 0.836);
+    text-decoration: none;
+    font-family: 'Josefin Sans', sans-serif;
+    padding: 0vw;
+    font-size: 0.6rem;
+    text-transform: uppercase;
+    line-height: 1.5; 
+    word-spacing: 10vw;
+    
+    
+}
+
+#menu ul {
+    background-color: none;
+    
+    
+}
+
+#menu ul li {
+    position: relative;
+    float: left;
+}
+ 
+#menu ul li a:hover {
+    color: rgb(97, 97, 97);
+    
+}
+
+#menu ul ul {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    padding: 0.5rem 0;
+    
+    
+}
+
+#menu ul li:hover>ul {
+    display: flex;
+    flex-direction: column;
+    align-content: flex-start;
+    justify-content: flex-start;
+    background-color: rgba(0, 0, 0, 0.50);
+    z-index: 1;
+    height: 20vw;
+    width: 30vw;
+    border-radius: 10px;
+    z-index: 1;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+/* fin menu*/
+
+/* inicio banner*/
+
+.banner__texto{
+  
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    align-content: center;
+  
+  
+
+}
+.img__banner {
+    
+    width: 105vw;
+    height: 55vw;
+
+}
+
+
+.everything{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: nowrap;
+    align-content: flex-start;
+    width: 100vw; 
+    height: 20vw;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-name: aparecer;
+    font-family:'Neon Tubes 2';
+    color: rgb(228, 24, 167);
+    font-size: 0.8rem;
+    z-index: 1;
+    
+  
+}
+@font-face {
+    font-family: 'Neon Tubes 2';
+    src: url(../fonts/neonTubes2/NeonTubes2-Regular.woff2);
+}
+
+
+ @keyframes aparecer {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+ }
+/*fin banner*/
+/*inicio sobre mi*/
+
+.contenedor__3{
+    
+    background-image: linear-gradient(violet,black);
+    width: 100vw;
+    height: 110vw;
+    
+}
+.foto__cattaneo{
+    width: 50vw;
+    height: 10vw;
+    
+}
+
+ .foto__cattaneo__01{
+     padding-top: 70px;
+     width: 35vw;
+     height: auto;
+     border-radius: 15px;
+     -webkit-border-radius: 15px;
+     -moz-border-radius: 15px;
+     -ms-border-radius: 15px;
+     -o-border-radius: 15px;
+     
+}
+.foto__cattaneo__01:hover{
+    filter: grayscale(80%);
+    transform: rotateY(180deg);
+    transform-style: preserve-3d;
+           
+}
+
+.foto__cattaneo__02{
+    width: 50vw;
+    height: 100vw;
+    
+   
+}
+
+ .sobre__mi{
+    width: 100vw;
+    position: relative;
+    display: flex;
+    align-self: flex-start;
+    justify-content:space-around;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    align-items: flex-end;
+    padding-bottom: 35px;
+    z-index: 1;
+    font-size: 1.1rem;
+    font-family: 'Josefin Sans', sans-serif;
+    color: rgb(255, 255, 255);
+    
+ }
+ .algo__sobreMi{
+    font-size: 1.5rem;
+    height: 0vw;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    padding-left: 55px;
+}
+ .button__cv__conoceme{
+    height: 6vw;
+    width: 60px;
+    font-size: 1.0rem;
+    border-style: solid;
+    border-color: white;
+    border-width: 2px;
+    font-family: 'Josefin Sans', sans-serif;
+    color: white;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    list-style: none;
+    background: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 25vw;
+    
+    
+}
+.sobre__mi__informacion {
+    width: 100vw;
+    position: relative;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    padding-left: 100px;
+    z-index: 1;
+    font-size: 0.8rem;
+    font-family: 'Josefin Sans', sans-serif;
+    color: rgb(255, 255, 255);   
+}
+
+.parrafo {
+    width:50vw;
+    text-align-last:justify;
+
+}
+.button__cv{
+    width: 100vw;
+    height: 35vw;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    
+    
+    
+}
+
+
+.button__cv__texto{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    border-style: solid;
+    border-color: white;
+    width: 120px;
+    height: 30px;
+    border-width: 2px;
+    font-family: 'Josefin Sans', sans-serif;
+    color: white;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    list-style: none;
+    background: black;
+}
+/*fin sobre mi*/
+/*inicio work*/
+
+.work{
+    position: relative;
+
+}
+.img__work1{
+    width: 35vw;
+    height: auto;
+    
+}
+.work .img__work1{
+    transition: 1s all;
+    animation-duration: 1s;
+}
+
+.img__work1:hover{
+    transform: rotateZ(360deg);
+    -webkit-transform: rotatez(360deg);
+    -moz-transform: rotatez(360deg);
+    -ms-transform: rotatez(360deg);
+    -o-transform: rotatez(360deg);    
+}
+
+
+.work__1{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100vw;
+    height: 100vw;
+    background: grey;
+}
+
+.titulo__design__interior{
+    
+    font-family: 'Josefin Sans', sans-serif;
+    color: white;
+    font-size: 2.0rem;
+
+}
+.concepto1{
+   
+    width: 80vw;
+    font-family: 'Josefin Sans', sans-serif;
+    color: white;
+    text-align-last:center;
+    font-size: 1.0rem;
+    
+}
+.img__work2{
+    width: 35vw;
+    height: auto;
+}
+.work .img__work2{
+    transition: 1s all;
+    animation-duration: 1s;
+    -webkit-transition: 1s all;
+    -moz-transition: 1s all;
+    -ms-transition: 1s all;
+    -o-transition: 1s all;
+}
+
+.img__work2:hover{
+    transform: rotateZ(360deg);
+    -webkit-transform: rotatez(360deg);
+    -moz-transform: rotatez(360deg);
+    -ms-transform: rotatez(360deg);
+    -o-transform: rotatez(360deg);    
+}
+.img__work2:hover{
+    transform: rotateZ(180deg);
+    -webkit-transform: rotateZ(180deg);
+    -moz-transform: rotateZ(180deg);
+    -ms-transform: rotateZ(180deg);
+    -o-transform: rotateZ(180deg);
+    
+}
+
+
+.work__2{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100vw;
+    height: 100vw;
+    background: black;
+    
+}
+
+.titulo__design__web{
+   
+    font-family: 'Josefin Sans', sans-serif;
+    color: white;
+    font-size: 2.0rem;
+
+}
+    
+.concepto2{
+   
+    width: 80vw;
+    font-family: 'Josefin Sans', sans-serif;
+    color: white;
+    text-align-last:center;
+    font-size: 1.0rem;
+    
+}
+.work__design{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: center;
+    width: 100vw;
+    height: 70vw;
+    background-image: linear-gradient(to right, gray, black);
+}
+.img__work3{
+    width: 20vw;
+    
+}
+#work__section{
+    
+    background: gray;
+    width: 100vw;
+    height: 100vw;
+}
+/*fin work*/
+/*inicio proyectos*/
+.contenedor__5{
+    
+    width: 100vw;
+    
+    
+}
+
+.titulo__proyectos__principal {
+   
+    background: rgba(153, 225, 216, 1.0);
+}
+
+.titulo__proyectos{
+    position: relative;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    align-items: flex-end;
+    width: 100vw;
+    height: 30vw;
+    color: white;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 1.8rem;
+    transform:translate(1px,5px);
+    padding-bottom: 10px;
+}
+.titulo__proyectos__principal .titulo__proyectos{
+    transition: 1s all;
+    animation-duration:1s;
+    -webkit-transition: 1s all;
+    -moz-transition: 1s all;
+    -ms-transition: 1s all;
+    -o-transition: 1s all;
+}
+.titulo__proyectos:hover{
+    color: rgb(246, 62, 154);
+    text-shadow: 0 0 10px #fff,
+               0 0 20px  #fff,
+               0 0 30px  #fff,
+               0 0 40px  #228DFF,
+               0 0 70px  #228DFF,
+               0 0 80px  #228DFF,
+               0 0 100px #228DFF,
+               0 0 150px #228DFF;
+    
+}
+.gradiente__foto1{
+    background-repeat: no-repeat;
+    background-size: 100vw;
+    background-image: 
+ url(../img/arq1.jpg);
+    width: 100vw;
+   height: 100vw;
+   display: flex;
+   align-content: center;
+   justify-content: center;
+   align-items: center;
+
+
+
+}
+.gradiente__foto1:hover{
+    border-radius:10%;
+    -webkit-border-radius:10%;
+    box-shadow: 0px 0px 15px 15px violet;
+    -webkit-box-shadow: 0px 0px 15px 15px violet;
+    -moz-border-radius:10%;
+    -ms-border-radius:10%;
+    -o-border-radius:10%;
+}
+
+
+.gradiente__foto2{
+    background-repeat: no-repeat;
+    background-size: 100vw;
+    background-image: 
+ url(../img/arq2.jpg);
+ width: 100vw;
+ height: 100vw;
+ display: flex;
+ align-content: center;
+ justify-content: center;
+ align-items: center;
+
+}
+.gradiente__foto2:hover{
+    border-radius:10%;
+    -webkit-border-radius:10%;
+    box-shadow: 0px 0px 15px 15px violet;
+    -webkit-box-shadow: 0px 0px 15px 15px violet;
+    -moz-border-radius:10%;
+    -ms-border-radius:10%;
+    -o-border-radius:10%;
+}
+
+.gradiente__foto3{
+    background-repeat: no-repeat;
+    background-size: 100vw;
+    background-image: 
+ url(../img/arq3.jpg);
+ width: 100vw;
+ height: 100vw;
+ display: flex;
+ align-content: center;
+ justify-content: center;
+ align-items: center;
+
+}
+.gradiente__foto3:hover{
+    border-radius:10%;
+    -webkit-border-radius:10%;
+    box-shadow: 0px 0px 15px 15px violet;
+    -webkit-box-shadow: 0px 0px 15px 15px violet;
+    -moz-border-radius:10%;
+    -ms-border-radius:10%;
+    -o-border-radius:10%;
+}
+.gradiente__foto4{
+    background-repeat: no-repeat;
+    background-size: 100vw;
+    background-image: 
+ url(../img/arq4.jpg);
+ width: 100vw;
+ height: 100vw;
+ display: flex;
+ align-content: center;
+ justify-content: center;
+ align-items: center;
+
+}
+.gradiente__foto4:hover{
+    border-radius:10%;
+    -webkit-border-radius:10%;
+    box-shadow: 0px 0px 15px 15px violet;
+    -webkit-box-shadow: 0px 0px 15px 15px violet;
+    -moz-border-radius:10%;
+    -ms-border-radius:10%;
+    -o-border-radius:10%;
+}
+.gradiente__foto5{
+    background-repeat: no-repeat;
+    background-size: 100vw;
+    background-image: 
+ url(../img/arq5.jpg);
+ width: 100vw;
+ height: 100vw;
+ display: flex;
+ align-content: center;
+ justify-content: center;
+ align-items: center;  
+
+}
+.gradiente__foto5:hover{
+    border-radius:10%;
+    -webkit-border-radius:10%;
+    box-shadow: 0px 0px 15px 15px violet;
+    -webkit-box-shadow: 0px 0px 15px 15px violet;
+    -moz-border-radius:10%;
+    -ms-border-radius:10%;
+    -o-border-radius:10%;
+}
+.gradiente__foto6{
+    background-repeat: no-repeat;
+    background-size: 100vw;
+    background-image: 
+ url(../img/arq6.jpg);
+ width: 100vw;
+ height: 100vw;
+ display: flex;
+ align-content: center;
+ justify-content: center;
+ align-items: center;
+}
+.gradiente__foto6:hover{
+    border-radius:10%;
+    -webkit-border-radius:10%;
+    box-shadow: 0px 0px 15px 15px violet;
+    -webkit-box-shadow: 0px 0px 15px 15px violet;
+    -moz-border-radius:10%;
+    -ms-border-radius:10%;
+    -o-border-radius:10%;
+}
+
+/*fin proyectos*/
+/*inicio footer*/
+.contenedor__6{
+    background: black;
+    color: black;
+    font-family: 'Josefin Sans', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    text-align: center;
+    width: 100vw;
+   
+   
+}
+
+
+.titulo__contacto{
+    position: relative;
+    display: flex;
+    align-content: flex-end;
+    justify-content: center;
+    align-items: flex-end;
+    width: 100vw;
+    height: 30vw;
+    color: rgb(255, 255, 255);
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 2.3rem;
+    transform:translate(1px,5px);
+    -webkit-transform:translate(1px,5px);
+    -moz-transform:translate(1px,5px);
+    -ms-transform:translate(1px,5px);
+    -o-transform:translate(1px,5px);
+}
+.contenedor__6 .titulo__contacto{
+    transition: 1s all;
+    animation-duration:1s;
+    -webkit-transition: 1s all;
+    -moz-transition: 1s all;
+    -ms-transition: 1s all;
+    -o-transition: 1s all;
+}
+.titulo__contacto:hover{
+    color: rgb(246, 62, 154);
+    text-shadow: 0 0 10px #fff,
+               0 0 20px  #fff,
+               0 0 30px  #fff,
+               0 0 40px  #228DFF,
+               0 0 70px  #228DFF,
+               0 0 80px  #228DFF,
+               0 0 100px #228DFF,
+               0 0 150px #228DFF;
+    
+}
+
+
+.formulario{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    font-family: 'Josefin Sans', sans-serif;
+    background-image: linear-gradient(
+        rgba(25, 209, 231, 0.5),
+        rgba(243, 17, 224, 0.5));
+    width: 100vw; 
+    height: 150vw; 
+    color: rgb(255, 255, 255);  
+}
+.cuadro{
+    background-color: rgb(0, 0, 0);
+    width: 60vw;
+    height: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+#nombres{
+    width: 40vw;
+    height: 4vw;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+#apellidos{
+    width: 40vw;
+    height: 4vw;
+    border-radius: 10px;
+
+}
+.form-control{
+    width: 40vw;
+    height: 4vw;
+    border-radius: 10px;
+
+}
+#exampleFormControlTextarea1{
+    width: 40vw;
+    height: 10vw;
+    border-radius: 10px;
+
+}
+.enviar{
+    width: 15vw;
+    height: 5vw;
+    border-radius: 10px;
+    font-size: 15px;
+    font-family: 'Josefin Sans', sans-serif;
+    background: rgba(153, 225, 216, 1.0);
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+.footer__icons{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-content: stretch;
+    align-items: center;
+    width: 100vw;
+    height: 10vw;
+    background: rgba(153, 225, 216, 1.0);
+    transition: 1s all;
+    animation-duration: 1s;
+    
+}
+.icons{
+   
+    width: 8vw; 
+    
+    
+}
+.footer__icons .icons{
+    transition: 1s all;
+    animation-duration: 1s;
+
+}
+.icons:hover{
+    transform: rotateZ(360deg);
+    -webkit-transform: rotatez(360deg);
+    -moz-transform: rotatez(360deg);
+    -ms-transform: rotatez(360deg);
+    -o-transform: rotatez(360deg);
+}
+
+
+.correo{
+    width: 100vw;
+    height: 25vw;
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    font-family: 'Josefin Sans', sans-serif;
+    color: violet;
+    background: black;
+}
+.Copy{
+    background: black;
+    text-align: center;
+    color: white;
+}
+/*fin footer*/
+
+@media (min-width:601px) and (max-width:1023px){
+/* inicio menu*/
+    .nav__Bar__Content {
+    
+        color: rgba(255, 255, 255, 0.836);
+        text-decoration: none;
+        font-family: 'Josefin Sans', sans-serif;
+        padding: 0vw;
+        font-size: 0.9rem;
+        text-transform: uppercase;
+        line-height: 1.5; 
+        word-spacing: 10vw;
+   
+    }
+    #menu ul li:hover>ul {
+       
+        height: 10vw;
+        width: 30vw;
+        
+    }
+    /* fin menu*/
+     /* inicio banner*/
+    .img__banner {
+    
+        width: 103vw;
+       
+    }
+
+    .everything{
+        font-size: 1.7rem;
+
+    }
+    /* fin banner*/ 
+    /* inicio sobre mi*/  
+ 
+    .sobre__mi{
+        height: 20vw;
+        font-size: 2.2rem;
+    }
+    .foto__cattaneo__01{
+        padding-top: 160px;
+    }
+        
+    .sobre__mi__informacion {
+        
+        width: 100vw;
+        height: 35vw;
+        display: flex;
+        align-self: flex-start;
+        justify-content: center;
+        padding-left: 30vw;
+        padding-top: 1vw;
+        flex-direction: column;
+        font-size: 1.2rem;
+       
+    }
+    .button__cv{
+        width: 100vw;
+        height: 55vw;
+        
+    
+    }
+    
+    .button__cv__texto{
+     
+        width: 200px;
+        height: 5vw;
+        border-width: 2px;
+        font-size: 1.2rem;
+    }
+    .button__cv__conoceme{
+        width: 22vw;
+        height: 6vw;
+        font-size: 1.8rem;
+        border-style: solid;
+        border-color: white;
+        border-width: 2px;
+        font-family: 'Josefin Sans', sans-serif;
+        color: white;
+        border-radius: 10px;
+        -webkit-border-radius: 10px;
+        -moz-border-radius: 10px;
+        -ms-border-radius: 10px;
+        -o-border-radius: 10px;
+        list-style: none;
+        background: black;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 20vw;
+        
+}
+    /* fin sobre mi*/
+    /* inicio work*/  
+  
+    .titulo__design__interior{
+
+        font-size: 3rem;
+    }
+
+    .concepto1{
+    font-size: 1.6rem;
+    width: 80vw;
+    
+    }   
+
+    .titulo__design__web{
+    font-size: 3rem;
+   
+    }
+    .concepto2{
+    width: 80vw;
+    font-size: 1.6rem;     
+    }
+    
+    .titulo__proyectos{
+        
+        width: 100vw;
+        height: 18vw;
+        font-size: 2.3rem;
+    }
+
+    /* fin work*/  
+    /* inicio footer*/ 
+    .titulo__contacto{
+        position: relative;
+        display: flex;
+        align-content: flex-end;
+        justify-content: center;
+        align-items: flex-end;
+        width: 100vw;
+        height: 20vw;
+        color: rgb(255, 255, 255);
+        font-family: 'Josefin Sans', sans-serif;
+        font-size: 3.2rem;
+        background: black;
+    
+    }
+    .formulario{
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+        font-family: 'Josefin Sans', sans-serif;
+        background-image: linear-gradient(
+            rgba(25, 209, 231, 0.5),
+            rgba(243, 17, 224, 0.5));
+        width: 100vw; 
+        height: 100vw; 
+        color: rgb(255, 255, 255);  
+        font-size: 25px;
+        
+    }
+    .cuadro{
+        background-color: rgb(0, 0, 0);
+        width: 60vw;
+        height: 80vw;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        border-radius: 10px;
+        -webkit-border-radius: 10px;
+        -moz-border-radius: 10px;
+        -ms-border-radius: 10px;
+        -o-border-radius: 10px;
+    }
+    #nombres{
+        width: 30vw;
+        height: 3vw;
+        border-radius: 10px;
+        -webkit-border-radius: 10px;
+        -moz-border-radius: 10px;
+        -ms-border-radius: 10px;
+        -o-border-radius: 10px;
+}
+    #apellidos{
+        width: 30vw;
+        height: 3vw;
+        border-radius: 10px;
+
+    }
+    .form-control{
+        width: 30vw;
+        height: 3vw;
+        border-radius: 10px;
+
+    }
+    #exampleFormControlTextarea1{
+        width: 30vw;
+        height: 10vw;
+        border-radius: 10px;
+
+    }
+    .enviar{
+        width: 15vw;
+        height: 5vw;
+        border-radius: 10px;
+        font-size: 20px;
+        font-family: 'Josefin Sans', sans-serif;
+        background: rgba(153, 225, 216, 1.0);
+    }
+    
+    .icons{
+   
+        width: 8vw;    
+    }
+    .correo{
+        width: 100vw;
+        height: 25vw;
+        font-size: 30px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-decoration: none;
+        font-family: 'Josefin Sans', sans-serif;
+        color: violet;
+        background: black;
+    }
+}
+    /* fin footer*/
+
+@media (min-width:1024px) and (max-width:1650px){
+  
+
+    .logo__cattaneo{
+        margin-left: 15px;
+        margin-top: 15px;
+        z-index: 1;
+        width: 45vw;
+    }
+    /* inicio menu*/
+    #menu{
+        margin-top: 1vw;
+    }
+    .nav__Bar__Content {
+    
+        color: rgba(255, 255, 255, 0.836);
+        text-decoration: none;
+        font-family: 'Josefin Sans', sans-serif;
+        padding: 0vw;
+        font-size: 1.4rem;
+        text-transform: uppercase;
+        line-height: 1.5; 
+        word-spacing: 8vw;
+   
+    }
+    #menu ul li:hover>ul {
+       
+        height: 5vw;
+        width: 20vw;
+        
+    }
+    /* fin menu*/
+    /* inicio banner*/
+    .img__banner {
+    
+        width: 101vw;
+       
+    }
+
+    .everything{
+        margin-bottom: 100px;
+        font-size: 3rem;
+
+    }
+    /* fin banner*/
+    /* inicio sobre mi*/
+    .contenedor__3{
+        width: 100vw;
+        height: 50vw;
+    }
+    .foto__cattaneo{
+        width: 100vw;
+        height: 0vw;
+        
+        
+
+    }
+    .foto__cattaneo__01{
+        width: 25vw;
+        padding-top: 70px;
+        border-radius: 10px;
+        -webkit-border-radius: 10px;
+        -moz-border-radius: 10px;
+        -ms-border-radius: 10px;
+        -o-border-radius: 10px;
+        margin-left: 70px;
+}
+    .foto__cattaneo__02{
+        width: 30vw;
+        height: 63vw;
+        
+       
+}
+.algo__sobreMi{
+    font-size: 3rem;
+    height: 0vw;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    padding-left: 270px;
+}
+    .sobre__mi{
+        height: 5vw;
+        font-size: 3rem;
+        font-family: 'Josefin Sans', sans-serif;
+    }
+        
+    .sobre__mi__informacion {
+        position: relative;
+        width: 85vw;
+        height: 40vw;
+        display: flex;
+        align-self: flex-start;
+        justify-content: center;
+        align-items: flex-end;
+        flex-direction: column;
+        font-size: 1.3rem;
+        text-align: justify;
+ 
+    }
+    .parrafo{
+        width: 45vw;
+        height: 30vw;
+       
+    }
+    .button__cv{
+        height: 4vw;
+        display: flex;
+        align-content: center;
+    }
+  
+    .button__cv__texto{
+        
+        width: 190px;
+        height: 80px;
+        border-width: 3px;
+        font-size: 1.8rem;
+    }
+    .button__cv__conoceme{
+        width: 22vw;
+        height: 6vw;
+        font-size: 1.8rem;
+        border-style: solid;
+        border-color: white;
+        border-width: 2px;
+        font-family: 'Josefin Sans', sans-serif;
+        color: white;
+        border-radius: 10px;
+        -webkit-border-radius: 10px;
+        -moz-border-radius: 10px;
+        -ms-border-radius: 10px;
+        -o-border-radius: 10px;
+        list-style: none;
+        background: black;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+        
+}
+    
+    /* fin sobre mi*/
+    /* inicio work*/
+    .contenedor__4{
+        background: violet;
+        width: 100vw;
+    }
+    .work{
+        position: relative;
+        display: flex;
+        flex-direction: row;
+        width: 100vw;
+        height: 50vw;
+    }
+    .work__design{
+        width: 100vw;
+        height: 30vw;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .img__work1{
+        width: 15vw;
+        height: auto;
+    }
+    
+    .work__1{
+        width: 50vw;
+        height: 50vw;
+        
+        
+    }
+    
+    .titulo__design__interior{
+        font-size: 3rem;
+    
+    }
+    .concepto1{
+        width: 40vw;
+        font-size: 1.4rem;
+        text-align: justify;
+        
+    }
+    .img__work2{
+        width: 15vw;
+        height: auto;
+    }
+   
+    .work__2{
+        
+        width: 50vw;
+        height: 50vw;
+    }
+    
+    .titulo__design__web{
+        font-size: 3rem;
+    
+    }
+    .concepto2{
+        width: 40vw;
+        font-size: 1.4rem;
+        text-align: justify;
+        
+    }
+    
+    /* fin work*/
+    /* inicio proyectos*/
+    #work__section{
+    
+        background: gray;
+        width: 100vw;
+        height: 50vw;
+    }
+    .contenedor__5{
+        background:black;
+        height: 100vw;
+        
+    }
+
+   
+    .titulo__proyectos__principal {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        align-content: center;
+        justify-content: center;
+        
+        background: rgba(153, 225, 216, 1.0);
+        width: 100vw;
+    
+    }
+    .titulo__proyectos{
+        width: 100vw;
+        height: 20vw;
+        font-size: 4rem;
+    }
+    .img__work3{
+        width: 20vw;
+    
+     
+    }
+    .fotos__proyectos{
+      
+        width: 100vw;
+        height: 100vw;
+        display: grid;
+        justify-items: center;
+        align-items: center;
+        grid-template-areas: 
+        "div div div"
+        "div div div"
+        "div div div"
+        ;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr ;
+        
+        
+    }
+
+    .gradiente__foto1{
+        
+        background-size: 30vw;
+        width: 30vw;
+        height: 30vw;
+       
+    
+    }
+    
+    .button__foto1{
+        width: 100px;
+        height: 10vw;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-style: solid;
+        border-color: white;
+        border-width: 1px;
+        font-family: 'Josefin Sans', sans-serif;
+        color: white;
+        border-radius: 5px;
+        -webkit-border-radius: 5px;
+        -moz-border-radius: 5px;
+        -ms-border-radius: 5px;
+        -o-border-radius: 5px;
+        list-style: none;
+    
+    }
+    .gradiente__foto2{
+        
+        background-size: 30vw;  
+        width: 30vw;
+        height: 30vw;
+    
+    
+    }
+    .gradiente__foto3{
+        background-size: 30vw;  
+        width: 30vw;
+        height: 30vw;
+     
+    
+    }
+    .gradiente__foto4{
+        background-size: 30vw;  
+        width: 30vw;
+        height: 30vw;
+     
+    
+    }
+    .gradiente__foto5{
+        background-size: 30vw;  
+        width: 30vw;
+        height: 30vw;
+    
+    
+    }
+    .gradiente__foto6{
+        background-size: 30vw;
+        width: 30vw;
+        height: 30vw;
+    }
+   
+    /* fin proyectos*/
+    /* inicio footer*/
+    .contenedor__6{
+        background: black;
+        color: white;
+        font-family: 'Josefin Sans', sans-serif;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        width: 100vw;
+    }
+    .titulo__contacto{
+        position: relative;
+        display: flex;
+        align-content: flex-end;
+        justify-content: center;
+        align-items: flex-end;
+        width: 100vw;
+        height: 20vw;
+        color: rgb(255, 255, 255);
+        font-family: 'Josefin Sans', sans-serif;
+        font-size: 4rem;
+        background: black;
+    
+    }
+    .formulario{
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+        font-family: 'Josefin Sans', sans-serif;
+        background-image: linear-gradient(
+            rgba(25, 209, 231, 0.5),
+            rgba(0, 0, 0, 0.5));
+        width: 100vw; 
+        height: 80vw; 
+        color: rgb(255, 255, 255);  
+        font-size: 30px;
+        
+    }
+    .cuadro{
+        background-color: rgb(0, 0, 0);
+        width: 60vw;
+        height: 60vw;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        border-radius: 10px;
+        -webkit-border-radius: 10px;
+        -moz-border-radius: 10px;
+        -ms-border-radius: 10px;
+        -o-border-radius: 10px;
+    }
+    #nombres{
+        width: 30vw;
+        height: 3vw;
+        border-radius: 10px;
+        -webkit-border-radius: 10px;
+        -moz-border-radius: 10px;
+        -ms-border-radius: 10px;
+        -o-border-radius: 10px;
+}
+    #apellidos{
+        width: 30vw;
+        height: 3vw;
+        border-radius: 10px;
+
+    }
+    .form-control{
+        width: 30vw;
+        height: 3vw;
+        border-radius: 10px;
+
+    }
+    #exampleFormControlTextarea1{
+        width: 30vw;
+        height: 10vw;
+        border-radius: 10px;
+
+    }
+    .enviar{
+        width: 15vw;
+        height: 5vw;
+        border-radius: 10px;
+        font-size: 20px;
+        font-family: 'Josefin Sans', sans-serif;
+        background: rgba(153, 225, 216, 1.0);
+    }
+    
+    
+    .icons{
+   
+        width: 5vw;    
+    }
+    .correo{
+        width: 100vw;
+        height: 10vw;
+        font-size: 45px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-decoration: none;
+        font-family: 'Josefin Sans', sans-serif;
+        color: violet;
+        background: black;
+   
+    }
+    /* fin footer*/
+
+}
